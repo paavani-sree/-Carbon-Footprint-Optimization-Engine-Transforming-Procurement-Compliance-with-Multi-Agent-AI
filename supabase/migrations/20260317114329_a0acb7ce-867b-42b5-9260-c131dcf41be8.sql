@@ -1,0 +1,1 @@
+ALTER TABLE public.operational_data ADD CONSTRAINT operational_data_company_id_unique UNIQUE (company_id);
